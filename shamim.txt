@@ -1,0 +1,87 @@
+# Table Name 
+
+@Data
+@TableName( value = "Eligibilty_Dtls")
+public class EligibilityDtls {
+
+	@Id
+	@GeneratedValue(strategy= GenerationType.AUTO)
+	private intger eligibiltyId;
+	private String  name;
+	private Long mobileNumber;
+	private String email;
+	private Char gender;
+	private intger SSN;
+	private String planName;
+	private String planStatus;
+	private LocalDate planStartDate;
+	private LocalDate planEndDate;
+	private LocalDate createDate;
+	private LocalDate updateDate;
+	private String createdBy;
+	private String updatedBy;
+
+}
+
+
+# POM.xml
+
+	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+	<dependency>
+ 	   <groupId>org.apache.poi</groupId>
+   	   <artifactId>poi-ooxml</artifactId>
+           <version>4.1.0</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/com.github.librepdf/openpdf -->
+	<dependency>
+	    <groupId>com.github.librepdf</groupId>
+      	    <artifactId>openpdf</artifactId>
+ 	    <version>1.3.8</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger2 -->
+	<dependency>
+	    <groupId>io.springfox</groupId>
+  	    <artifactId>springfox-swagger2</artifactId>
+  	   <version>2.8.0</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui -->
+	<dependency>
+	    <groupId>io.springfox</groupId>
+  	    <artifactId>springfox-swagger-ui</artifactId>
+   	    <version>2.8.0</version>
+	</dependency>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
